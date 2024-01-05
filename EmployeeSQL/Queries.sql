@@ -12,7 +12,7 @@ select * from Departments;
 
 -- ** Create Table Employees ** --
 CREATE TABLE Employees (
-    emp_no 		INTEGER 	PRIMARY KEY 		NOT NULL,
+    emp_no 		INTEGER     PRIMARY KEY 		NOT NULL,
     emp_title_id 	VARCHAR(10)   				NOT NULL,
     birth_date 		DATE   					NOT NULL,
     first_name 		VARCHAR   				NOT NULL,
