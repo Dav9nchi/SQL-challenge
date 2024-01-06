@@ -114,7 +114,7 @@ JOIN   	Departments 	ON Dept_emp.dept_no = Departments.dept_no
 WHERE  	Departments.dept_name = 'Sales';
 
 --List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-SELECT 	Employees.emp_no		   as "Employee Number",
+SELECT 	Employees.emp_no	as "Employee Number",
 	Employees.last_name     as "Employee Last name",
 	Employees.first_name    as "Employee First name",
 	Departments.dept_name   as "Department Name"
